@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    tools:context="proton.aboutme.MainActivity">
+
+    <ImageView
+        android:id="@+id/myPhoto"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        app:srcCompat="@drawable/myphoto" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/myPhoto"
+        android:layout_toRightOf="@+id/myPhoto"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/contacts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            android:text="@string/contacts"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/phone_380663945359"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/email_proton5000_gmail_com"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/btnEducation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:onClick="openParts"
+            android:text="@string/education" />
+
+        <Button
+            android:id="@+id/btnWorkExperience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:onClick="openParts"
+            android:text="@string/work_experience" />
+
+        <Button
+            android:id="@+id/btnSkills"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:onClick="openParts"
+            android:text="@string/skills" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:text="@string/work_experience"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView6"
+            android:gravity="left"
+            android:text="@string/_18_04_2016_present_full_stack_developer_at_internet_marketing_company_euta_capital"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView7"
+            android:layout_centerHorizontal="true"
+            android:gravity="left"
+            android:text="@string/backend_java_se_8_maven_spring_boot_hibernate_social_network_libraries_such_as_facebook_foursquare" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView8"
+            android:layout_centerHorizontal="true"
+            android:gravity="left"
+            android:text="@string/integration_chat_server_openfire_on_amazon_ec2_ubuntu_server_16_04_mysql_5_7_apache_2_4_conversejs_3_0_2_xmpp_web_client" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView9"
+            android:layout_marginBottom="8dp"
+            android:gravity="left"
+            android:text="@string/frontend_html_scss_angularjs_js_social_network_sdk_such_as_facebook_google" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView10"
+            android:layout_centerHorizontal="true"
+            android:gravity="left"
+            android:text="@string/_12_04_2009_present_telecommunications_engineer_at_llc_antron"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView11"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8dp"
+            android:gravity="left"
+            android:text="@string/responsibilities_installation_configuration_and_linking_of_ctc_centralized_traffic_control_system_of_ukraine_railway_state_administration_of_railway_transport_of_ukraine_synchronization_of_the_server_group_for_the_automation_and_management_of_railway_transport_preparation_of_workstation_controllers" />
+
+        <!--<TextView-->
+            <!--android:id="@+id/textView15"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/textView14"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:gravity="left"-->
+            <!--android:text="@string/_03_05_2007_15_07_2008_computer_networks_engineer_at_jsc_dnepropetrovsk_paint_factory"-->
+            <!--android:textColor="#000" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/textView14"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/textView13"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginBottom="8dp"-->
+            <!--android:gravity="left"-->
+            <!--android:text="@string/the_reduction_of_the_department_necessitated_my_retrenchment" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/textView16"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/textView15"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:gravity="left"-->
+            <!--android:text="@string/winding_up_of_an_enterprise_necessitated_my_retrenchment" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/textView13"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/textView12"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:gravity="left"-->
+            <!--android:text="@string/_20_07_2008_09_01_2009_administrator_of_operational_user_support_helpdesk_at_company_homecredit_bank"-->
+            <!--android:textColor="#000" />-->
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:text="@string/skills"
+            android:textColor="#000"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView17"
+            android:gravity="left"
+            android:text="@string/java_7_8_se" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView20"
+            android:gravity="left"
+            android:text="@string/git_svn_maven_apache_tomcat_nginx_postgresql_mysql" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView18"
+            android:gravity="left"
+            android:text="@string/spring_hibernate_freemarker_logback_log4j_junit_testng_jdbc" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView21"
+            android:layout_marginBottom="8dp"
+            android:gravity="left"
+            android:text="@string/html5_javascript_css3_jquery_angularjs_nodejs_bootstrap" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView19"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/os"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView23"
+            android:layout_centerHorizontal="true"
+            android:gravity="left"
+            android:text="@string/systems_administration_win_xp_7_8_8_1_10_linux_deb_rpm" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView24"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8dp"
+            android:gravity="left"
+            android:text="@string/network_services_dns_dhcp_nat_iptables_fw_ppp_samba_web_server" />
+
+        <!--<TextView-->
+            <!--android:id="@+id/textView31"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/my_github"-->
+            <!--android:textColor="#000"-->
+            <!--android:textSize="18sp" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/textView34"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/textView33"-->
+            <!--android:text="@string/languages"-->
+            <!--android:textColor="#000"-->
+            <!--android:textSize="18sp" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/textView41"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/textView40"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:text="@string/sociable_decent_considerate_teachable_purposeful_sociable_good_teamwork_skills" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/textView27"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/textView26"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:gravity="left"-->
+            <!--android:text="@string/_18_02_2015_18_05_2015_it_training_in_dnipropetrovsk_skillsup_in_java_core" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/textView39"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/textView38"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:text="@string/ertificates"-->
+            <!--android:textColor="#000"-->
+            <!--android:textSize="18sp" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/textView30"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/textView29"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginBottom="8dp"-->
+            <!--android:gravity="left"-->
+            <!--android:text="@string/html5_css3_javascript_jquery_angularjs_bootstrap_mysql_online_courses_https_www_codecademy_com_http_www_magisters_org" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/textView40"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/imageView"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:text="@string/personal_data"-->
+            <!--android:textColor="#000"-->
+            <!--android:textSize="18sp" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/textView29"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/textView28"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:gravity="left"-->
+            <!--android:text="@string/_10_11_2014_10_11_2015_it_school_levelup_in_java_programming" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/textView32"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/textView31"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:gravity="left"-->
+            <!--android:text="@string/https_github_com_proton5000_icq_console_icq" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/textView26"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/textView25"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/education_and_training"-->
+            <!--android:textColor="#000"-->
+            <!--android:textSize="18sp" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/textView28"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/textView27"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:gravity="left"-->
+            <!--android:text="@string/_02_09_2014_02_11_2014_it_school_levelup_in_basics_of_programming" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/imageView"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/textView39"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginBottom="8dp"-->
+            <!--app:srcCompat="@drawable/cer" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/textView35"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:layout_below="@+id/textView34"-->
+            <!--android:gravity="left"-->
+            <!--android:text="@string/ukrainian_native" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/textView38"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:layout_below="@+id/textView37"-->
+            <!--android:layout_marginBottom="8dp"-->
+            <!--android:gravity="left"-->
+            <!--android:text="@string/english_reading_of_documentation_simple_conversation" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/textView37"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/textView35"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:gravity="left"-->
+            <!--android:text="@string/russian_fluent" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/textView33"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/textView32"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginBottom="8dp"-->
+            <!--android:gravity="left"-->
+            <!--android:text="@string/https_github_com_proton5000_zoo_simple_zoo_database_spring_mvc_app" />-->
+    </LinearLayout>
+
+</RelativeLayout>
